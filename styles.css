@@ -242,6 +242,10 @@ nav {
         overflow: auto;
     }
 
+    .realAboutInfo {
+        overflow: auto;
+    }
+
 }
 
 @media (min-width: 500px) {
