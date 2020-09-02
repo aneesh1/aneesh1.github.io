@@ -24,7 +24,10 @@ nav {
     width: 30%;
     padding-left: 5%;
     margin-top: 20px;
-    overflow: auto;
+}
+
+.logo a h4 {
+    white-space: nowrap;
 }
 
 .nav-links {
