@@ -255,13 +255,3 @@ nav {
     }
 
 }
-
-@media (orientation: landscape) {
-    .realAboutInfo {
-        height: 82vh;
-    }
-
-    .project-info {
-        height: 82vh;
-    }
-}
