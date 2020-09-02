@@ -239,7 +239,7 @@ nav {
 
     .project-info {
         grid-template-columns: none;
-        overflow: visible;
+        overflow: auto;
     }
 
 }
