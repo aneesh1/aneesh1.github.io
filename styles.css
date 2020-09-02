@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: avenir;
+    src: url(./fonts/AvenirLTStd-Medium.otf);
+}
+
+nav {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: row;
+    min-height: 8vh;
+    background-color: #7395ae;
+    font-family: avenir;
+}
+
+.logo {
+    color: white;
+    font-size: 22px;
+    width: 30%;
+    padding-left: 5%;
+    margin-top: 20px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+    margin-top: 28px;
+}
+
+.nav-links li {
+    list-style: none;
+    padding-right: 3%;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.aboutInfo {
+    height: 82vh;
+    background: #7395ae;
+}
+
+.realAboutInfo {
+    height: 82vh;
+    background: #7395ae;
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-right: 10%;
+    display: block;
+    overflow: auto;
+    padding-bottom: 3vh;
+}
+
+.realAboutInfo p {
+    font-family: avenir;
+    color: white;
+    padding-top: 3%;
+    font-size: 20px;
+}
+
+.realAboutInfo h2 {
+    font-family: avenir;
+    color: white;
+    font-size: 40px;
+}
+
+.project {
+    border: 1px;
+    max-width: 400px;
+    max-height: 400px;
+    overflow: visible;
+    /* border-style: solid;
+    border-width: 3px;
+    padding: 20px; */
+
+}
+
+.project h3 {
+    font-family: avenir;
+    font-size: 24px;
+}
+
+.project-info {
+    height: 82vh;
+    background: #7395ae;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 10%;
+    grid-auto-rows: auto;
+}
+
+.project-info p {
+    font-family: avenir;
+    color: white;
+    padding-top: 3%;
+    font-size: 20px;
+}
+
+.project-info h2 {
+    font-family: avenir;
+    color: white;
+    font-size: 40px;
+}
+
+
+.aboutInfo h4 {
+    padding-left: 10%;
+    padding-top: 10%;
+    font-family: avenir;
+    color: white;
+}
+
+.aboutInfo h1 {
+    font-family: avenir;
+    padding-left: 10%;
+    padding-top: 5%;
+    font-size: 60px;
+    color: white;
+}
+
+.footer-elements {
+    padding-top: 4%;
+}
+
+.aboutInfo p {
+    font-family: avenir;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-inline-end: 20%;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    font-family: avenir;
+    min-height: 9vh;
+}
+
+.left-side {
+    width: 30%;
+    padding-left: 5%;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+
+.left-side p {
+    size: 30px;
+}
+
+
+.rightSide {
+    width: 20%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 2%;
+    margin-top: 20px;
+}
+
+.rightSide i {
+    padding-left: 20px;
+}
+
+.grow:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+/* Portrait */
+@media screen 
+  and (min-device-width: 768px)
+  and (orientation: Portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    *{
+        box-sizing: border-box;
+    }
+
+    .project-info {
+        display: grid;
+        grid-template-columns: none;
+        
+    }
+
+}
+
+@media screen 
+  and (max-width: 1000px)
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    *{
+        box-sizing: border-box;
+    }
+
+    .project-info {
+        display: grid;
+        grid-template-columns: none;
+    }
+
+}
+
+.changeToPurple:hover {
+    color: #6e5494
+}
+
+.changeToBlue:hover {
+    color: #0072b1
+}
+
+.changeToBrown:hover {
+    color: #ae8c73
+}
