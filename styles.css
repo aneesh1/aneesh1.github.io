@@ -24,7 +24,7 @@ nav {
     width: 30%;
     padding-left: 5%;
     margin-top: 20px;
-    white-space: nowrap;
+    overflow: auto;
 }
 
 .nav-links {
