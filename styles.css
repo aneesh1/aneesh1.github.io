@@ -56,7 +56,7 @@ nav {
     padding-top: 3%;
     padding-right: 10%;
     display: block;
-    overflow: auto;
+    overflow: visible;
     padding-bottom: 3vh;
 }
 
